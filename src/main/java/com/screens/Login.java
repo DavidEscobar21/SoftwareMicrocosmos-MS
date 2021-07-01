@@ -38,16 +38,13 @@ public class Login extends javax.swing.JFrame {
         jTextField1 = new javax.swing.JTextField();
         jPasswordField1 = new javax.swing.JPasswordField();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Microcosmos");
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setLocation(new java.awt.Point(445, 200));
-        setMaximumSize(new java.awt.Dimension(560, 360));
         setMinimumSize(new java.awt.Dimension(560, 360));
-        setPreferredSize(new java.awt.Dimension(560, 360));
         setResizable(false);
         setSize(new java.awt.Dimension(560, 360));
 
@@ -84,7 +81,7 @@ public class Login extends javax.swing.JFrame {
         jTextField1.setForeground(new java.awt.Color(153, 153, 153));
         jTextField1.setText("Ingresa tu nombre de usuario");
         jTextField1.setToolTipText("");
-        jTextField1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        jTextField1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jTextField1.setMaximumSize(new java.awt.Dimension(160, 20));
         jTextField1.setMinimumSize(new java.awt.Dimension(160, 20));
         jTextField1.setPreferredSize(new java.awt.Dimension(160, 20));
@@ -99,13 +96,6 @@ public class Login extends javax.swing.JFrame {
         jButton1.setMaximumSize(new java.awt.Dimension(110, 35));
         jButton1.setMinimumSize(new java.awt.Dimension(110, 35));
         jButton1.setPreferredSize(new java.awt.Dimension(110, 35));
-
-        jButton2.setText("Recuperar Contraseña");
-        jButton2.setBorder(null);
-        jButton2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jButton2.setMaximumSize(new java.awt.Dimension(160, 15));
-        jButton2.setMinimumSize(new java.awt.Dimension(160, 15));
-        jButton2.setPreferredSize(new java.awt.Dimension(160, 15));
 
         jButton3.setText("Salir");
         jButton3.setBorder(new javax.swing.border.MatteBorder(null));
@@ -131,9 +121,8 @@ public class Login extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(142, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -146,9 +135,7 @@ public class Login extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(37, 37, 37)
+                .addGap(58, 58, 58)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -214,7 +201,6 @@ public class Login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
